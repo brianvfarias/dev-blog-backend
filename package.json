@@ -1,0 +1,28 @@
+{
+  "name": "back-dev-blog",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "@types/pg": "^8.11.6",
+    "drizzle-kit": "^0.24.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "pg": "^8.12.0",
+    "zod": "^3.23.8"
+  }
+}
