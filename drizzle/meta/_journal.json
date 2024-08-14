@@ -15,6 +15,13 @@
       "when": 1723505844739,
       "tag": "0001_wandering_blacklash",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1723591790129,
+      "tag": "0002_serious_bullseye",
+      "breakpoints": true
     }
   ]
 }
